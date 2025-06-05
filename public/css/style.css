@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=M+PLUS+1+Code:wght@100..700&display=swap');
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -570,14 +570,44 @@ video {
   font-weight: 700;
 }
 
-.text-cyan-500{
+.text-canceled{
   --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity, 1));
+  color: hsl(217 13% 67% / var(--tw-text-opacity, 1));
 }
 
-.text-cyan-700{
+.text-delivered{
   --tw-text-opacity: 1;
-  color: rgb(14 116 144 / var(--tw-text-opacity, 1));
+  color: hsl(141 81% 37% / var(--tw-text-opacity, 1));
+}
+
+.text-denied{
+  --tw-text-opacity: 1;
+  color: hsl(1 95% 53% / var(--tw-text-opacity, 1));
+}
+
+.text-pending{
+  --tw-text-opacity: 1;
+  color: hsl(267 81% 53% / var(--tw-text-opacity, 1));
+}
+
+.text-placed{
+  --tw-text-opacity: 1;
+  color: hsl(213 91% 51% / var(--tw-text-opacity, 1));
+}
+
+.text-pos_color{
+  --tw-text-opacity: 1;
+  color: hsl(193 81% 41% / var(--tw-text-opacity, 1));
+}
+
+.text-ready{
+  --tw-text-opacity: 1;
+  color: hsl(33 93% 47% / var(--tw-text-opacity, 1));
+}
+
+.text-transit{
+  --tw-text-opacity: 1;
+  color: hsl(51 83% 49% / var(--tw-text-opacity, 1));
 }
 
 * {
@@ -593,7 +623,7 @@ html {
 
 body {
   background-color: white;
-  font-family: "Reddit Sans";
+  font-family: "Cairo";
 }
 
 .receipt {
